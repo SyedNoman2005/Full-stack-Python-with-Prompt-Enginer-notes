@@ -1,0 +1,194 @@
+React Course
+--------------------
+ Timings : 7:30/35 -- 8.55/9
+  Requirements : HTML,CSS,JS 
+  Syllabus : 
+      React Introduction
+      components, state,props, virtual DOM,
+      useState,useEffect hooks
+      class vs functional components
+      Context API(useContext), useMemo,useCallback,useRef
+      Forms, events
+      state management(redux)
+      React Routing
+      Major project on React
+
+  Duration : 3 weeks
+  Every day will show simple project and a task will be given
+
+1. what is React or react js?
+     React is an open source javascript library which is used to build interactive user interfaces(UI -- what you see). React is developed and maintained by meta(facebook)
+around 2012 - so many around the globe uses facebook. To make it better experience, they built their own library react and 2014 , they open sourced it.
+
+2. is React js and React Native are same?
+React JS is used for web applications/Website. React Native is used for mobile applications
+
+3. what are the major uses of React?
+    React is majorily used to build ui  of Single Page Applications (SPA -- an application that loads a specific part of UI instead of whole app) and Progressive Web Apps(PWA -- an application that feels like native app)
+
+4. what are competitors and react advantages over them?
+React can be replaced with Angular, Vue.
+Angular is a framework of JS and Vue is also a library of JS.
+React is more simpler , easy and it supports virtual DOM for quickness
+
+5. Procedure to build first React App.
+1. To code React , you need Code Editor. we use VSCode
+    First download and install VSCode
+2. You need a package manager to install/uninstall/update any packages or libraries. we use npm(node package manager)
+    First download nodejs and install
+    open cmd and type "npm -v"
+    if u get error " npm is not recognized as internal or external command", it is not installed.
+3. You need a bundler to get react template bundle. using this, we don't need to create every single file, we will get basic boilerplate code
+    npm create vite@latest
+
+4. To Run Application, in terminal , goto specific folder, 
+     cd foldername
+     npm run dev
+
+5. Goto folder and index.html, 
+      change favicon, title
+      go to main.jsx and just observe
+      goto App.jsx,delete all and write below code
+
+       function App()
+         {
+            return (
+                      <div>
+                       <h1>Hello World</h1>
+                      </div>
+                     )
+         }
+       export default App;
+
+
+27/01/2026
+React  code contains files called jsx(javascript extensible) - using jsx we can write HTML inside Javascript . 
+    Every jsx file should return only one html element
+    Always name of file and component/function name should be same(better starts with uppercase)
+    In JSX, class property should be written as className
+    In JSX , it is mandatory to close all tags including self closing tags
+
+
+For Production, use : npm run build
+
+1. goto website Netlify.com
+2. signup using github
+3. click new project and deploy manually
+4. upload dist folder and to change name, you can use  project configuration
+
+Files & Folders
+package.json --  meta data of your project
+package-lock.json -- meta data of package.json
+vie.config --  settings for vite
+eslint -- notifies and observes errors
+.gitignore -- contains files that are ignored by git
+node_modules --  it contains actual code of all package
+public  -- used for public assets
+index.html  --  main and entry point of our application. it contains head and body . its body contains an empty div with id "root"
+main.jsx -- it loads app.jsx into div with id "root" . in react we call loading as rendering
+App.jsx -- contains actual body code in jsx format
+
+
+
+28/01/26
+React basically Deals with 4 topics
+  1. Components
+  2. Props
+  3.  state and virtual DOM
+  4. API's 
+
+1. Components : React divides the whole UI of a website into reusable logical parts called components. They are like legos ,using which we can build applications
+    --> Reusable
+    ---> simple
+    ---> can be functional or class
+    ---> return JSX but all jsx files/functions must return only one element
+
+2. Props: props is shortform of properties
+// Button.jsx
+function Button(props){
+
+return (
+        <button style={{color:props.color}}>click me </button>
+        )
+}
+
+//App.jsx
+import Button from './Button.jsx'
+function App() {
+   return (
+      <div>
+             <Button   color="red"/>
+            <Button   color="green"/>
+      </div>
+   )
+}
+props is a object that contains values that are passed to the component in key value pair
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

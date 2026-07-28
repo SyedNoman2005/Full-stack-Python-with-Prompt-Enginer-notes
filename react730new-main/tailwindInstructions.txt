@@ -1,0 +1,18 @@
+Tailwindcss is a popular css library which is used to style/design the HTML elements
+www.tailwindcss.com
+steps to integrate it with vite:
+  you can google "tailwindcss with vite"
+   step 1:  npm install tailwindcss @tailwindcss/vite
+   step 2: import tailwindcss plugin in vite.config
+   import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(),tailwindcss()],
+})
+
+ step 3: goto main css file and write
+ @import 'tailwindcss'
+
+ step 4: goto extensions in vs code , install "tailwindcss intellisense"

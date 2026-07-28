@@ -1,0 +1,52 @@
+Routing in React: React cannot do/provide Routing by default.To do the Routing, we use a library called React Router DOM. it is the standard library for enabling navigation between pages without reloading the browser in React Web Applications
+
+steps:
+  step 1: npm install react-router-dom
+  step 2: we need to wrap the complete code/app into BrowserRouter. it enables Routing to entire APP
+  import {BrowserRouter} from 'react-router-dom'
+  function App(){
+    return (
+        <BrowserRouter>
+           //code
+        </BrowserRouter>
+    )
+  }
+  step 3:we can define Routes and Each Route with path and Element
+    <Routes>
+       <Route path="/about" element={<AboutComponent />} />
+       <Route path="/contact" element={<ContactComponent />} />
+    </Routes>
+if my website loads at localhost:5173 and if i goto localhost:5173/about it shows AboutComponent
+
+  step 4: if i want to go to specific path by clicking a link without reploading the page, then i have to use <Link to="path"></Link> instead of anchor tag
+  <Link to="/about">Goto About page</Link>
+
+  step 5: If you need a page which depicts not found page, then Route path should be *
+  <Route path="*" element={<NotFoundComponent />}
+
+Programatic navigation : In case, we want to make a page navigate to another programatically(after clicking a button/after specific time etc..,), then we can use hook called "useNavigate"
+import {useNavigate} from 'react-router-dom'
+function Login(){
+  const navigate = useNavigate();
+  function handleNavigate(){
+    navigate('/dashboard')
+  }
+    return (
+      <button onClick={handleClick}>click me</button>
+    )
+}
+
+URL Parameters: To get URL Parameters, you can use useParams hook
+for eg: https://amazon.com?pid=1234567
+import {useParams} from 'react-router-dom'
+function Dashboard(){
+  const {pid} =useParams();
+  return (
+    <p>current product id:{pid}</p>
+  )
+}
+
+Nested Routes : Incase one Route is inside another Route they are termed as Nested Routes. For them, we can use <Outlet /> to print child Routes
+
+
+

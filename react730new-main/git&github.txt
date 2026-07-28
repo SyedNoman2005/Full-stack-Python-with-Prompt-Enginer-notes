@@ -1,0 +1,27 @@
+Git & Github: 
+    Git is a distributed version control system. it is a software that is installed in sytem to track all changes in code and make a version on commit.
+
+Github : github is a cloud platform/website that is used to deploy, share and collaborate with the code
+
+Git is developed & maintained by Oracle. github is developed&maintained by microsoft
+
+First steps are to configure your credentials in system
+1. Goto Terminal --> new Terminal
+     git config --global user.name "your github username"
+     git config --global user.email "your github email id"
+
+Local Repository: 
+    1. Goto Terminal --> new Terminal 
+    2. git init       (it will intialize or start git in your folder -- working Area)
+    3. git add filenames or git add .     (it will add files to git so that git will track them for changes -- staging Area)
+    Everytime you changed something git understands it because it has a copy in staging area. so after reasonable changes better repeat step 3 again
+    4. git commit -m "you have write what changed you did in message"
+
+Remote/cloud Repository:
+   5. git remote add origin "your repo link" 
+   6. git push -u origin main
+
+   Everytime you have repeat steps 3 , 4 and 6
+
+
+

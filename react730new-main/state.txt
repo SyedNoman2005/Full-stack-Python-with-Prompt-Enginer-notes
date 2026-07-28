@@ -1,0 +1,14 @@
+31/01/26
+   State : State refers a change in react application. Everytime the state changes , that particular component/the application re renders.
+   state is always mutable,local to a component, reactice(changing it changes the UI)
+
+   How to make and manage state in a component:
+   step 1: import a hook , useState from 'React' . hooks are default functions in react that returns values as per use case
+   useState hook Returns a stateful value, and a function to update it.
+   useState returns the values in array form.useState accepts initial value
+   step 2:
+       const [value,functionToUpdateTheValue] = useState(initialValue)
+    In react state is asynchronous (it takes some time to run). so  below statements will be executed first
+
+React internally does state using a concept called "Virtual DOM" .Because of this, React is the fastest one and it changed only whereever changes needed
+

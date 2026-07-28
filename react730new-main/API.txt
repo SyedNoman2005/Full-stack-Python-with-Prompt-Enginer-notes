@@ -1,0 +1,46 @@
+API: Application Programming Interface is the bridge between client and server of the application
+In client server model, client request the server and server responds to the client using API's .
+The most used API's in web developement are REST API/Restful API's.They send and receive the data in JSON (Javascript Object Notation) Format.
+eg: [
+    {
+        "key":"value"
+    }
+]
+
+To call or get data from API, we can used
+fetch : fetch is the default method provided by browser to request the data from server.
+   fetch(url/endpoint,options)
+
+Axios : Axios is the third party library which can be used instead of fetch
+npm install axios
+import axios from 'axios'
+axios.method(url,options)
+
+The fetch or axios are asynchronous functions so that they return promises
+These promises can be resolved by using then--catch or async/await
+syntax: fetch(url,options)
+        .then((res)=>res.json())
+        .then((data)=>console.log(data))
+        .catch((err)=>console.log(err))
+
+syntax:  async function functionName(){
+         const res = await fetch(url,options)
+         const data = await res.json()
+         console.log(data)  // for error handling, we can use try-catch
+}
+
+How to handle API's in React?
+To Handle API's or the side effects, we use a hook called "useEffect"
+useEffect is used whenever the dynamic data is fetching from server or any asynchronous functions need to be handled
+useEffect(()=>{
+    //code
+},[dependency Array])
+useEffect Works in all stages of component lifecycle(Mounting+updating+unmounting)
+
+different cases of dependency array:
+   i. if there is no dependency array , then useEffect will work at mounting stage and updating of any state
+   ii. if the dependency array is empty , then useEffect will work only at mounting stage
+   iii. if the dependency array contains some values, the useEffect will work at mounting and updating the state of only those value
+
+Major use cases are: fetching the data, timers(setTimeout/setInterval) , updating the DOM
+

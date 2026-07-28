@@ -1,0 +1,41 @@
+Events and Forms in React:
+    Events are the actions done by user to trigger a function call , a change in UI or any other action.Based on users actions, events are divided as multiple  such as 
+    keyboard events
+    mouse events
+    form events etc..,
+
+eg: imagine user clicks a button and a modal need to be opened
+we invoke an event onClick to get the desired result
+
+In JSX all events were camelcased and react handles events using something called synthetic events.
+React does not use browser events directly so it wraps them in a synthetic event
+This is html code
+<button onclick="add()">click me</button>
+
+This is React code
+<button onClick={add}>click me </button>
+<button onClick={()=>add(5,3)}>click me </button>
+
+Events always pass an object by default called event object which handles events like controld,targets etc..,
+eg:
+  function getData(e){
+    console.log(e.target.textContent)
+  }
+  <button onClick={getData}>click me </button>
+
+  keyboard events : onKeyDown, onKeyUp
+  Mouse Events : onMouseOver,onMouseDown,onMouseOut,onScroll,onClick,onDblClick
+  Form Events : onChange,onInput,onSubmit,onSelect etc..,
+  
+Forms: forms in react are used to get the data from user using inputs and send the data to backend/server through API's
+React Forms can be done in two ways
+  i. Controlled Components: In these components, state management of inputs can be controlled easily . it uses events such as onInput,onChange,onSelect ,onSubmit etc..,
+
+  In React, we have libraries to create forms like react hook forms or Formik. For validations we can use Zod
+
+
+ ii. uncontrolled Components: In these components, state management of inputs cannot be controlled as they are handled by DOM. we can get values using DOM using a hook called useRef
+
+
+
+

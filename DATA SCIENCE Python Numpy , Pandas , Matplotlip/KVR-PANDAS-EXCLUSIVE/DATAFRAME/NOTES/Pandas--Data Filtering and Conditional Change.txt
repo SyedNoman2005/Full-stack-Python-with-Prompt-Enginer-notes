@@ -1,0 +1,12 @@
+=======================================================================
+		Pandas--Data Filtering and Conditional Change 
+===================================================================
+1) dataframeobj.loc[ simple condition]
+			
+			Ex:    df.loc[ df["maths"]>75 ]
+				df.loc[df["maths"]>90 ,["name","maths"]]
+
+2) dataframeobj.loc[ compound condition ]
+			Ex:   df.loc[ (df["maths"]>60) & (df["maths"]<85) ]
+			Ex:  df.loc[ (df["maths"]>95) & (df["maths"]<=99),["name","maths"] ]
+===================================================================

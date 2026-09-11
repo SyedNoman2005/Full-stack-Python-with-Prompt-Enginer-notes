@@ -1,0 +1,98 @@
+==============================================================================================
+					 linspace()
+===============================================================================================
+Syntax:     varname = numpy.linspace(start, stop, num, endpoint, retstep, dtype)   
+=>start: It represents the starting value of the interval.
+=>stop:It represents the stopping value of the interval.
+=>num: The amount of evenly spaced samples over the interval to be generated. The default is 50.
+=>endpoint: Its true value indicates that the stopping value is included in the interval.
+=>rettstep: This has to be a boolean value. Represents the steps and samples between the consecutive numbers.
+=>dtype: It represents the data type of the array items.
+===============================================================================================
+Examples:
+----------------
+a=np.linspace(1,10)
+print(a,type(a))
+[ 1.          1.18367347  1.36734694  1.55102041  1.73469388  1.91836735
+  2.10204082  2.28571429  2.46938776  2.65306122  2.83673469  3.02040816
+  3.20408163  3.3877551   3.57142857  3.75510204  3.93877551  4.12244898
+  4.30612245  4.48979592  4.67346939  4.85714286  5.04081633  5.2244898
+  5.40816327  5.59183673  5.7755102   5.95918367  6.14285714  6.32653061
+  6.51020408  6.69387755  6.87755102  7.06122449  7.24489796  7.42857143
+  7.6122449   7.79591837  7.97959184  8.16326531  8.34693878  8.53061224
+  8.71428571  8.89795918  9.08163265  9.26530612  9.44897959  9.63265306
+  9.81632653 10.        ] <class 'numpy.ndarray'>
+  --------------------------------------------------------------
+  print("Num of linearly spaced values=",a.size) ------- 50
+  a,rsv=np.linspace(1,10,retstep=True)
+print(a,type(a))
+print("-----------------------------")
+print("Return Step Value=",rsv)
+[ 1.          1.18367347  1.36734694  1.55102041  1.73469388  1.91836735
+  2.10204082  2.28571429  2.46938776  2.65306122  2.83673469  3.02040816
+  3.20408163  3.3877551   3.57142857  3.75510204  3.93877551  4.12244898
+  4.30612245  4.48979592  4.67346939  4.85714286  5.04081633  5.2244898
+  5.40816327  5.59183673  5.7755102   5.95918367  6.14285714  6.32653061
+  6.51020408  6.69387755  6.87755102  7.06122449  7.24489796  7.42857143
+  7.6122449   7.79591837  7.97959184  8.16326531  8.34693878  8.53061224
+  8.71428571  8.89795918  9.08163265  9.26530612  9.44897959  9.63265306
+  9.81632653 10.        ] <class 'numpy.ndarray'>
+-----------------------------
+Return Step Value= 0.1836734693877551
+--------------------------------------------------------------------------------
+a,rsv=np.linspace(1,10,num=5,retstep=True)
+print(a,type(a))
+print("-----------------------------")
+print("Return Step Value=",rsv)
+[ 1.    3.25  5.5   7.75 10.  ] <class 'numpy.ndarray'>
+-----------------------------
+Return Step Value= 2.25
+-------------------------------------------------------------------------------------------
+a,rsv=np.linspace(0,20,num=5,retstep=True)
+print(a,type(a))
+print("-----------------------------")
+print("Return Step Value=",rsv)
+[ 0.  5. 10. 15. 20.] <class 'numpy.ndarray'>
+-----------------------------
+Return Step Value= 5.0
+a,rsv=np.linspace(0,20,num=5,endpoint=False,retstep=True)
+print(a,type(a))
+print("-----------------------------")
+print("Return Step Value=",rsv)
+[ 0.  4.  8. 12. 16.] <class 'numpy.ndarray'>
+-----------------------------
+Return Step Value= 4.0
+------------------------------------------------------------------
+a=np.linspace(10,100,num=10)
+print(a,type(a))
+print("-----------------------------")
+[ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.] <class 'numpy.ndarray'>
+-----------------------------
+print("Content of ndarray\n")
+print(a)
+print("Dimension of ndarray=",a.ndim)
+print("Shape of ndarray=",a.shape)
+print("Size of ndarray=",a.size)
+Content of ndarray
+
+[ 10.  20.  30.  40.  50.  60.  70.  80.  90. 100.]
+Dimension of ndarray= 1
+Shape of ndarray= (10,)
+Size of ndarray= 10
+a.shape=(5,2)
+print("Content of ndarray\n")
+print(a)
+print("Dimension of ndarray=",a.ndim)
+print("Shape of ndarray=",a.shape)
+print("Size of ndarray=",a.size)
+Content of ndarray
+
+[[ 10.  20.]
+ [ 30.  40.]
+ [ 50.  60.]
+ [ 70.  80.]
+ [ 90. 100.]]
+Dimension of ndarray= 2
+Shape of ndarray= (5, 2)
+Size of ndarray= 10
+=====================================x===================================================

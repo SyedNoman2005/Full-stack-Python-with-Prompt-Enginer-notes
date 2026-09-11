@@ -1,0 +1,51 @@
+				======================================================================
+							Operations on Series Object Part-2
+				======================================================================
+
+4. Finding the Number of Missing Values (NaN, None,NA)
+
+		Syntax1:    SeriesObject.isna()  # Gives Boolean Array, where True Represents Missing Values
+		Syntax2:    SeriesObject.isna().sum() # Gives Number of Missing Value in Series Object By considering True in Boolean Array
+		Syntax3:    SeriesObject.isnull()  # Gives Boolean Array, where True Represents Missing Values
+		Syntax2:    SeriesObject.isnull().sum() # Gives Number of Missing Value in Series Object By considering True in Boolean Array
+		
+5. Sorting the Values of Series Object:
+		Syntax1:  SeriesObject.sort_values() # By deafult in Ascending Order
+		Syntax2:  SeriesObject.sort_values(ascending=False/True) # By default True-->Ascending Order
+																		   False-->Decending Order
+		Syntax3: SeriesObject.sort_values(inplace) # By deafult in Ascending Order to be placed in same series object.
+		Syntax4:  SeriesObject.sort_values(inplace,ascending=False/True) # By default True-->Ascending Order
+																		   False-->Decending Order
+6. Finding Max / Highest Element from Series Object
+		Syntax-1: SeriesObject.max()
+		Syntax-2: SeriesObject.nlargest(n) # Here 'n' Represents Number Max Elements to Find
+
+7. Finding Min / Smallest Element from Series Object
+		Syntax-1: SeriesObject.min()
+		Syntax-2: SeriesObject.nsmallest(n) # Here 'n' Represents Number Min Elements to Find
+
+8. Finding Unique Values from Series object
+		Syntax: SeriesObj.unique() # Will Display all Unique Values
+
+9. Finding the Number of Unique Values from Series Object
+		Syntax:  SeriesObj.nunique() # Wll give Total Number Unique Values in Series Object
+
+10. Display Number of the Unique Values  Frequency (Count of Each Value) from Series Object
+		Syntax: SeriesObj.value_counts()
+
+11. Statistical Operations on Series Object.
+				a) SeriesObj.sum()
+				b) SeriesObj.count()
+				d) SeriesObj.max()
+				e) SeriesObj.min()
+				f) SeriesObj.mean()
+				g) SeriesObj.median()
+				h) SeriesObj.mode()
+				i) SeriesObj.var() 
+				j) SeriesObj.std()
+				k) SeriesObj.describe()
+				l) SeriesObj.agg(["sum","max","min","mean".....])
+				m) SeriesObj.product()
+				n) SeriesObj.cumprod().......etc
+==============================================x==========================================
+		

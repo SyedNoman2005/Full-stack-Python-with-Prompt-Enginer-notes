@@ -1,0 +1,9 @@
+===================================================================
+			Adding new Column Name to Data Frame
+===================================================================
+1)  dataframeobj['new col name']=default value
+2)  dataframeobj['new col name']=expression
+Examples:
+df["total"]=df["english"]+df["telugu"]+df["hindi"]+df["maths"]+df["science"]+df["social"]
+df["percent"]=round((df["total"]/600)*100,2)
+===================================================================

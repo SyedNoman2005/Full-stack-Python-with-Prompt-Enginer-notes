@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+							1. rand()
+							2. uniform()
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+1. rand
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This function is used for Generating random floating point values between 0.0 to 1.0.
+Syntax-1: numpy.random.rand()--->Generating Any random floating point value between 0.0 to 1.0.
+Syntax-2: numpy.random.rand(value)--->Generating Number of Random floating Values (Value times) 
+									between 0.0 to 1.0	with 1-D																		
+Syntax-3: numpy.random.rand(Rows, Cols)--->Generating Number of Random floating Values (Row, Cols) 
+									between 0.0 to 1.0	with 2-D	
+Syntax-3: numpy.random.rand(No.Matrices, Row, Cols)--->Generating Number of Random floating Values (No.Matrices,														Row, Cols) between 0.0 to 1.0	with 3-D	
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+2. uniform()
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This function is used for Generating random floating point values  accorinfg Programmer Choice
+Syntax-1: numpy.random.uniform()--->Generating Any random floating point value between 0.0 to 1.0.
+Syntax-2: numpy.random.unform(low,high)--->Generating Any random floating point value between low and high															
+Syntax-3: numpy.random.uniform(low,high,size)--->Generating Number of Random floating Values (Row, Cols) 
+									between low to high  with size(Single Value)	ie. 1-D	
+									-->Generating Number of Random floating Values (Row, Cols) 
+									between low to high  with size(Rows x Cols)	ie. 2-D
+									-->Generating Number of Random floating Values (Matrices,Row, Cols) 
+									between low to high  with size(Matrices,Rows x Cols)	ie. 3-D	
+----------------------------------------------------------------------------------------------------------------------------------------------------------

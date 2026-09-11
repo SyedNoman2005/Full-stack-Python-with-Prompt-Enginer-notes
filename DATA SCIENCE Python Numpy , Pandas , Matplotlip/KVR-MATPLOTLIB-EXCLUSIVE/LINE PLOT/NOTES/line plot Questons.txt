@@ -1,0 +1,26 @@
+Problem-1
+--------------------------
+Days	Week 1	Week 2	Week 3
+Monday		27°		29°		29°
+Tuesday		29°		30°		28°
+Wednesday	32°		31°		25°
+Thursday		33°		33°		27°
+Friday		33°		34°		31°
+Saturday		31°		34°		30°
+Sunday		29°		31°		29°
+--------------------------------------------------
+Problem-2
+Imagine you work at a retail company, and you want to evaluate the monthly sales of two different products over the past year.
+		
+		year: 12 Months
+		product1 sales values range in between 50 to 200 in 12 months----
+				product_sales_1=np.random.randint(50,200,12)
+		product2 sales values range in between 60 to 180 in 12 months----
+				product_sales_2=np.random.randint(60,180,12)
+
+Code:
+-----------
+retailcom=pd.DataFrame({"Month":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
+					    "Sales_Prod_1": np.random.randint(50,200,12),
+					     "Sales_Prod_2": np.random.randint(60,180,12)})
+

@@ -1,0 +1,50 @@
+				=========================================
+					Scatterplots and correlation review
+				=========================================
+What is a scatterplot
+-----------------------------------
+=>A scatter plot is also called a scatter chart, scattergram, or scatter plot
+=>A scatterplot is a type of data display that shows the relationship between two numerical variables. Each member of 
+   the dataset gets plotted as a point whose coordinates relates to its values for the two variables.
+==========================================================================================
+----------------------
+Problems
+-----------------------
+=>Let us understand how to construct a scatter plot with the help of the below example.
+Draw a scatter plot for the given data that shows the number of games played and scores obtained in each instance.
+
+No. of games	3	5	2	 6	 7	 1	 2	 7	 1	 7
+Scores		       80   90	75	80	90	50	65	85	40	100
+=============================================================================
+Problems
+-----------------------
+Every year, a meteorologist studying tropical storms predicts how many hurricanes will occur. 
+The table below shows how many hurricanes were predicted and how many hurricanes actually occurred for the years 
+ 2000 to 2005
+
+ 
+Year:		2000	2001	2002       2003       2004    2005
+Predicted	11		13		12		17		15	   17-------------------x axis
+Actual		14		15		12	        16		14	   27-------------------y-axis
+=========================================================================
+===================================================
+Making appropriate scatter plots
+-----------------------------------------------------------------------------------------
+Problem
+------------
+Rossum is curious how different amounts of sunlight will impact the growth of his tomatoes. he exposed some of his tomatoes to varying amounts of sunlight (in hours per day) and recorded the change in their circumferences (in centimeters) after a week. His data is summarized in the table below.
+		Sunlight (hours per day)	:	  0       2        4       6           8
+  
+		Change in circumference (cm)	:1.00  2.50 5.25  10.75   11.25
+ ===================================================================
+Problem 1: Flower height and petal length
+Sam measured the height and petal length (in centimeters) of all the flowers in his garden.
+Height (cm}):      30   20   15  35   10  40
+Petal length(cm) 6     4     2    8     3    9
+ 
+ What is the best description of the relationship between height and petal length for Sam's flowers?
+Choose 1 answer:
+(Choice A)   Positive association
+(Choice B)   Negative association
+(Choice C)   No association
+ =============================================================================

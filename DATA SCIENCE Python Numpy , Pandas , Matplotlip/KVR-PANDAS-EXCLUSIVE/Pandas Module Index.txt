@@ -1,0 +1,193 @@
+				=========================================================
+							Index of Pandas Module
+						(Data Analysis and Data Analytics)
+				=========================================================
+=>Real Time  Applications of Pandas
+=>Basic Introduction to the Pandas
+=>Advantages of Pandas Module
+=>SetUp of Pandas module in Different Environments
+------------------------------------------------------------------------------------------------------
+Pandas-Data Structures in Pandas
+------------------------------------------------------------------------------------------------------
+=>Series
+=>DataFrame
+=>Panel
+-----------------------------------------------------------------------------------------------------
+Pandas-Introduction to Series
+-----------------------------------------------------------------------------------------------------
+=>Purpose of Series
+=>Number of Approaches to create an object of Series.
+		a) By using the Objects of Fundamental Data Types 
+		b) By using the Objects of Sequence Data Types 
+		c) By using the Objects of List Data Types
+		d) By using an object of Dict Data Type.
+		e) By using an object of ndarray Object
+		f) By using  CSV Files
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Attributes of Series Object
+-----------------------------------------------------------------------------------------------------
+=>Name of the Pandas Series object
+=>Get all values of the Series as a list
+=>Get count of number of elements in Series
+=>Check if Series is empty or not
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Get and Set Series values
+-----------------------------------------------------------------------------------------------------
+=>Getting OR Accessing Series elements
+=>Setting OR Changing elements in the Series
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Operations on Series Object Part-1
+-----------------------------------------------------------------------------------------------------
+=>Adding the Values of Series Object
+=>Substracting the Values of Series Object
+=>Droping the Values of Series Object
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas--Operations on Series Object Part-2
+-----------------------------------------------------------------------------------------------------
+=>Finding Number of Missing values
+=>Sorting the Values of Series
+=>Finding Max / Highest Element from Series 
+=>Finding Min / smallest Element from Series 
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Advanced Operations on Series Object
+-----------------------------------------------------------------------------------------------------
+=>Finding Unique Values from Series 
+=>Finding Number of Unique Values from Series 
+=>Display Unique Values from Series Object.
+=>Statistical Operations on Series Object
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-DataFrame 
+-----------------------------------------------------------------------------------------------------
+=>Introduction to  DataFrame
+=>Number of Approaches to Create an Object of DataFrame.
+		a) By using list / tuple
+		b) By using dict
+		c) By using set type
+		d) By using Series
+		e) By using ndarray of numpy
+		f) By using CSV File (Comma Separated Values)
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Attributes  of Dataframe
+-----------------------------------------------------------------------------------------------------
+=>Usage of Attributes  of Dataframe
+=>programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Accesssing the Data of DataFrame-Part-1
+-----------------------------------------------------------------------------------------------------
+=>Number of Approaches for accessing the Data from DataFrame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Accesssing the Data of DataFrame-Part-2
+-----------------------------------------------------------------------------------------------------
+=>Understanding the functionality of loc[] and iloc[]
+=>Differences between loc[] and iloc[]
+=>Number of Approaches/Syntaxes to access the data from DataFrame by using loc[] and iloc[]
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Iterate over Rows and Columns of DataFrame
+-----------------------------------------------------------------------------------------------------
+=>The Need of Iterate over Rows and Columns of DataFrame
+=>Number of Approaches to Iterate over Rows and Columns of DataFrame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas--Sorting the data of dataframe
+-----------------------------------------------------------------------------------------------------
+=>Need of Sorting the Data of DataFrame
+=>Number of Approaches to sort the Data of DataFrame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Adding new Column Name to Data Frame
+-----------------------------------------------------------------------------------------------------
+=>Number of Approaches to add Column Name(s) to Data Frame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Removing Column Name(s) from Data Frame
+-----------------------------------------------------------------------------------------------------
+=>Number of Approaches to Remove Column Name(s) from Data Frame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Adding new Row to Data Frame
+-----------------------------------------------------------------------------------------------------
+=>Syntax for  adding Row(s) to Data Frame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Removing Row(s) from Data Frame
+-----------------------------------------------------------------------------------------------------
+=>Number of Approaches to Remove Row(s) from Data Frame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Data Filtering and Conditional Change 
+-----------------------------------------------------------------------------------------------------
+=>Need of Data Filtering and Conditional Change 
+=>Data Filtering By using Simple Condition 
+=>Data Filtering By using Compound Condtion
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Data Filtering and  Updations on DataFrame object
+-----------------------------------------------------------------------------------------------------
+=>Need of Data Filtering and Updations on DataFrame object
+=>Data Filtering and Updating  By using Simple Condition 
+=>Data Filtering and Updating  By using Compound Condition 
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas- Working with Duplicate Values in DataFrame
+-----------------------------------------------------------------------------------------------------
+=>Knowing the duplicates  data in dataframe 
+=>Removing duplicated data from dataframe
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas--Working with Missing Data
+----------------------------------------------------------------------------------------------------
+=>Checking for missing values 
+		a) isna()
+		b) isnull()
+=>programming Values
+=>To find Non-Missing Values
+		c) notna()
+		d) notnull() 
+=>programming Examples
+=>Filling missing values 
+		a) fillna()
+		b) replace()  
+=>programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas-Renaming the DataFrame
+-----------------------------------------------------------------------------------------------------
+=>Syntax for Renaming the DataFrame
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas----Merging DataFrames
+Pandas---pandas--astype()
+-----------------------------------------------------------------------------------------------------
+Pandas--DataFrame--GroupBy Concept
+-----------------------------------------------------------------------------------------------------
+=>Need of GroupBy Concept
+=>Iterate over all the DataFrame Groups
+=>Get first row of each Group
+=>Get Last row of each Group
+=>Get nth row of each Group
+=>Get the count of number of DataFrame Groups
+=>DataFrame GroupBy and agg() method
+=>Get the size, sum and mean of values
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+Pandas--DataFrame Transformations
+-----------------------------------------------------------------------------------------------------
+=> groupby() and transform() Functions in Pandas
+=> groupby() and apply() Functions in Pandas
+=> groupby() and filter() Functions in Pandas
+=>Programming Examples
+-----------------------------------------------------------------------------------------------------
+EDA Projects( Exploratory Data Analysis)
+-----------------------------------------------------------------------------------------------------
+=> Google Play Store 
+=> E-Commerce Analysis
+=>Employee Salary Analysis
+-----------------------------------------------------------------------------------------------------

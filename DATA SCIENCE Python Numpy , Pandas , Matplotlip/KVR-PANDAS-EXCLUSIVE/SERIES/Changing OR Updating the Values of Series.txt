@@ -1,0 +1,25 @@
+				===========================================================
+						Changing OR Updating the Values of Series
+				===========================================================
+				1. By using Index of Series Object
+						Syntax:  SeriesObject[Index]=Value
+						Syntax:  SeriesObject[Index]=Expression
+						Syntax:  SeriesObject[[Random Indices]]=[Value1,Value2,....,Value-n]
+						Syntax:  SeriesObject[[Random Indices]]=[Expr1, Exrp2,.....,Expr-n]
+						
+				2. By using Slicing of Series Object
+						Syntax: SeriesObject[Begin Index: End Index]=[Value1,Value2,....,Value-n]
+						Syntax: SeriesObject[Begin Index: End Index:Step]=[Value1,Value2,....,Value-n]
+						
+				3. By using Label Name of Series Object
+						Syntax:   SeriesObject[Label Name]=Value
+						Syntax:   SeriesObject[Label Name]=Expression
+						Syntax:  SeriesObject[[Random Label Names]]=[Value1,Value2,....,Value-n]
+						Syntax:  SeriesObject[[Random Label Names]]=[Expr1, Exrp2,.....,Expr-n]
+
+				4. By using Label Name Slicing of Series Object
+						Syntax: SeriesObject[Begin Label Name: End Label Name]=[Value1,Value2,....,Value-n]
+						Syntax: SeriesObject[Begin Label Name: End Label Name]=[Expr1, Exrp2,.....,Expr-n]
+						Syntax: SeriesObject[Begin Label Name: End Label Name:Step]=[Value1,Value2,....,Value-n]
+						Syntax: SeriesObject[Begin Label Name: End Label Name:Step]=[Expr1, Exrp2,.....,Expr-n]
+===========================================x====================================================

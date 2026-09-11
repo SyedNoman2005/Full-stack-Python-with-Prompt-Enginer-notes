@@ -1,0 +1,10 @@
+===================================================================
+		knowing the duplicates  data in dataframe 
+=======================================================================
+1) dataframeobj.duplicated()---------------gives boolean result
+===================================================================
+		Removing duplicated data from dataframe
+===================================================================
+1) dataframeobj.drop_duplicates()
+2) dataframeobj.drop_duplicates(inplace=True)
+===================================================================

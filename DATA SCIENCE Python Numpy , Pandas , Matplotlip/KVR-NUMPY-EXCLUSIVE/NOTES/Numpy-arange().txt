@@ -1,0 +1,19 @@
+				=================================================
+								2. arange()
+				=================================================
+						
+	Syntax-1			varname=numpy.arange(Value,dtype)
+	Syntax-2			varname=numpy.arange(Start,Stop,dtype)
+	Syntax-3			varname=numpy.arange(Start,Stop,Step,dtype)
+
+=>Syntax-1 Gives  range of values from 0 to Value-1 in the form of ndarray Object in forward Direction 
+			with Default step +1 
+=>Syntax-2 Gives  range of values from Start to Stop-1 in the form of ndarray Object in forward Direction 
+			with Default step +1
+=>Syntax-3 Gives  range of values from Start to Stop-1 in the form of ndarray Object either in forward Direction OR 
+                       Backward Direction with Programmer Defined  step
+=>arange() always gives range of Values in ndarray in 1-D Form Only But Not possible in 2-D and n-D.
+=>If we want to get arrnage() values in 2-D and n-D then we must use reshape() or shape attribue.
+=============================================x=====================================================
+
+

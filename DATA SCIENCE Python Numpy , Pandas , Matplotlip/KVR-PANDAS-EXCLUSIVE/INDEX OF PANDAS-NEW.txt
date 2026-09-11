@@ -1,0 +1,102 @@
+				============================
+						Pandas
+				============================
+Introduction
+Environment Setup
+Introduction to Data Structures
+•	Dimension & Description
+•	Series
+•	DataFrame
+•	Data Type of Columns
+•	Panel
+Series
+•	pandas.Series
+•	Create an Empty Series
+•	Create a Series from ndarray
+•	Create a Series from  dict
+•	Create a Series from  Scalar
+•	Accessing Data from Series with Position(Index)
+•	Accessing Data from Series OR Retrieve Data Using Label (Index)
+DataFrame
+•	pandas.DataFrame
+•	Create DataFrame
+•	Create an Empty DataFrame 
+•	Create a DataFrame from Lists 
+•	Create a DataFrame from Dict OR  ndarrays OR  Lists 
+•	Create a DataFrame from List of Dicts
+•	Create a DataFrame from Dict of Series 
+•	Column Selection 
+•	Column Addition 
+•	Column Deletion 
+•	Row Selection, Addition, and Deletion
+
+Basic Functionality
+•	DataFrame Basic Functionality
+
+Descriptive Statistics
+•	Functions & Description 
+•	Summarizing Data
+
+Function Application
+•	Table-wise Function Application 
+•	Row or Column Wise Function Application 
+•	Element Wise Function Application
+
+Reindexing
+•	Reindex to Align with Other Objects 
+•	Filling while ReIndexing 
+•	Limits on Filling while Reindexing 
+•	Renaming
+
+Iterating a DataFrame
+•	iteritems() 
+•	iterrows() 
+•	itertuples()
+
+Sorting
+•	By Label 
+•	Sorting Algorithm
+
+Working with Text Data
+
+Indexing and Selecting Data
+•	.loc[]
+•	.iloc[]
+•	Use of Notations
+
+• Statistical Functions
+• Missing Data
+•	Cleaning / Filling Missing Data 
+•	Replace NaN with a Scalar Value 
+•	Fill NA Forward and Backward 
+•	Drop Missing Values 
+•	Replace Missing (or) Generic Values
+
+GroupBy
+•	Split Data into Groups 
+•	View Groups 
+•	Iterating through Groups 
+•	Select a Group 
+•	Aggregations 
+•	Transformations 
+•	Filtration
+
+Merging/Joining
+•	Merge Using 'how' Argument
+
+Concatenation
+•	Concatenating Objects 
+•	Time Series
+
+Visualization
+•	Bar Plot 
+•	Histograms 
+•	Box Plots 
+•	Area Plot 
+•	Scatter Plot 
+•	Pie Chart
+
+IO Tools
+• read.csv
+Comparison with SQL
+=>EDA Projects--Most IMP----Add OR PUT in Ur Resume

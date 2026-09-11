@@ -1,0 +1,210 @@
+				=========================================================
+								NumPy Module
+				=========================================================
+=>Real Time  Applications of Numpy 
+=>Basic Introduction to the Numpy
+=>Advantages of Numpy Module
+=>Python Traditional List  VS  Numpy Module
+=>Introduction to ndarray of Numpy Module
+=>Number of Approaches to Create and Object of ndarray in Numpy.
+		1	array()
+		2	arange()
+		3	linspace()
+		4	zeros()
+		5	ones()
+		6	full()
+		7	eye()
+		8	identity()
+		9	diag()
+		10	empty()
+		Nummy with random  functions
+			11.	randint()
+			12.	rand()
+			13.	uniform()
+			14.	randn()
+			15.	normal()
+			16.	shuffle()
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Types of arrays with ndarrays
+		1. 1-Dimensional Arrays
+		2. 2-Dimensional Arrays
+		3. n-Dimensional Arrays
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Re-Shapping an ndarray of Numpy
+		1. By using  shape attribute
+		2. By using reshape()
+=>Programnming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>NdArray attributes
+		1. dtype
+		2. size
+		3. shape
+		4. itemsize 
+		5. T    ...etc
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Numpy Data Types
+		1. int16
+		2. int32
+		3.float16
+		4. float32
+		5. float64
+		6. object
+		7. U4 U5....Un...etc
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Type Casting in Numpy
+		1. astype()
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>View vs Copy
+		1. copy()
+		2. view()
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Basic Indexing and  Slicing of ndarray of Numpy 
+	I. Basic Indexing-->To select only one element.
+		i. with 1-D Array
+		ii. With 2-D Array
+		iii. With n-D Array
+		=>Programming Examples
+	II. Basic Slicing
+		i. with 1-D Array
+		ii. With 2-D Array
+		iii. With n-D Array
+		=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Advanced Indexing and  Slicing of ndarray of Numpy 
+	I. Advanced Indexing
+		i. with 1-D Array
+		ii. With 2-D Array
+		iii. With n-D Array
+	=>Programming Examples
+	II. Advanced  Slicing
+		i. with 1-D Array
+		ii. With 2-D Array
+		iii. With n-D Array
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>Condition Based Selection OR Filtering the Data
+		i. with 1-D Array
+		ii. With 2-D Array
+		iii. With n-D Array
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Extracting OR Retrieving OR iterate the elements of the ndarray.
+	1. By using pythons loop
+	2. By using numpy nditer() function
+	3. By using numpy ndenumerate() function
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Arithmetic operators OR  Matrix Operations
+	1.Arithmetic operators for Numpy arrays with scalar
+	2. Arithmetic operators for Arrays with Arrays.
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+ Statistical Operations with Numpy
+----------------------------------------------------------------------------------------------------------------------------------------
+			1. amax()
+			2. amin()
+			3. mean()
+			4. median()
+			5. var()
+			6. std()
+		=>Programming Examples
+   =>statistics module
+			1. mode()
+			2. multimode()
+		=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Ndarray  Manipulation Functions
+	1. reshape()
+	2. resize()
+	3. flatten()
+	4. ravel()
+	5. transpose()
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Joining OR Merging of multiple arrays into a single array
+	1. vstack()
+	2. hstack()
+	3. dstack()
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Splitting of Ndarrays
+	1. split()
+	2. vsplit()
+	3. hsplit()
+	4. dsplit()
+	5. array_split()
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Sorting elements of ndarrays
+		1. sort()
+		2. sort() with axis
+	=>Programming Examples
+Searching elemenets of ndarray
+		1. where()
+		2. where() with axis
+		3. np.extract(condition, arr)
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Inserting, Deleting and Appending  elements into ndarray
+		1. insert() 
+		2. append()
+		3. delete()
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Matrix multiplication by using dot() function.
+		1. dot()
+		2. matmul()
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Introduction to Linear algebra
+	=>linalg module
+	=>Functions from linalg module
+		1. dot()
+		2. inv()
+		3. inner()
+		4. outer()
+		5. det()
+		6. solve()
+		7. trace()
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Random Permutations of Elements
+		1. permutation()
+		2. shuffle()
+		Itertools module
+=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+=>I/O operations with Numpy
+		1. loadtxt()
+		2. savetxt()
+		3. load() with Binary Files
+		4. save() with Binary Files
+	=>Working with CSV Files with Numpy(Reading and Writing)
+		5. numpy.genfromtxt() 
+		6. numpy.savetxt()
+	=>Working with NumPy's NPZ Files
+		7.numpy.savez()
+		8.numpy.savez_compressed()
+		9. numpy.load()
+----------------------------------------------------------------------------------------------------------------------------------------
+Numpy mathematical Universal  functions
+		1. Discrete Differences
+		2. GCD  and GCD with reduce()
+		3. LCM and LCM with reduce()
+		4. Set Operations
+		5. Products 
+		6. Rounding Decimals
+		7. Simple Arithmetic
+	=>Programming Examples
+----------------------------------------------------------------------------------------------------------------------------------------
+Find unique items and count
+	1. numpy.unique(arr, return_counts=False)
+=>Programming Examples
+==========================================================================================
+

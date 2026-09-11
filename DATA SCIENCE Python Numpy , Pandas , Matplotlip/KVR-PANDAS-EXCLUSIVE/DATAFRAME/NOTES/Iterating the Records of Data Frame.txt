@@ -1,0 +1,29 @@
+			================================================================
+					Iterating the Records of Data Frame--Most Imp
+			================================================================
+1.  We can Iterate the Records(Rows) of Data Frame by using Indices (Index Positions)
+	
+	Syntax:          for varname  in  range(0,DataFrameObj.shape[0]):
+					print("Row Index:{}".format(varname))
+					recordvals=DataFrame.iloc[i].values
+
+2. We can Iterate the Records(Rows) of Data Frame by using Index Labels:
+	
+	Syntax:		for indexname , record in	DataFrameObj.iterrows():
+					print("Index Name=",indexname)
+					print("Record")
+					print(record)
+3.  We can Iterate the Records(Columns) of Data Frame by using Column Indices (Column Positions)
+
+	Syntax:		for i in range(0,DataFrameObj.shape[1]):
+					print("Column Number=",i)
+					colcontent=df.iloc[:,i].values
+					print("Column Content=",colcontent)
+					
+4.  We can Iterate the Records(Column) of Data Frame by using Column Names/Labels
+			
+	Syntax:		for colname  in DataFrameObj.columns:
+					print("Column Name=",colname)
+					colcontent=DataFrameObj[colname].values
+					print("Column Content=",colcontent)
+---------------------------------------------------------------------------------------------------------------------------------------------------

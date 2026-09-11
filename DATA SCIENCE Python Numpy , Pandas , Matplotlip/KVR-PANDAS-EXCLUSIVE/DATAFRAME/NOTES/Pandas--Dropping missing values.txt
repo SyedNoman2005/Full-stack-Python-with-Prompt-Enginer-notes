@@ -1,0 +1,43 @@
+===========================================================
+	Dropping missing values using dropna() :
+============================================================
+	DataFrame.dropna( axis=0, how='any')
+
+axis---->Determine if rows or columns which contain missing values are removed.
+			0, or ‘index’ : Drop rows which contain missing values.
+			1, or ‘columns’ : Drop columns which contain missing value.
+			Default Value: 0
+how----->	Determine if row or column is removed from DataFrame, when we have at least one NA or all NA.
+		‘any’ : If any NA values are present, drop that row or column.
+		‘all’ : If all values are NA, drop that row or column.
+------------------------------------------------------------------------------------------------------------------------------------------
+In order to drop a null values from a dataframe, we used dropna() function this fuction drop Rows/Columns of datasets with Null values in different ways.
+
+# importing pandas as pd
+import pandas as pd
+ 
+# importing numpy as np
+import numpy as np
+ 
+# dictionary of lists
+dict = {'First Score':[100, 90, np.nan, 95],
+        'Second Score': [30, np.nan, 45, 56],
+        'Third Score':[52, 40, 80, 98],
+        'Fourth Score':[np.nan, np.nan, np.nan, 65]}
+ 
+# creating a dataframe from dictionary
+df = pd.DataFrame(dict)
+print(df)
+df.dropna()
+OUTPUT
+---------
+   First Score  Second Score  Third Score  Fourth Score
+0        100.0          30.0           52           NaN
+1         90.0           NaN           40           NaN
+2          NaN          45.0           80           NaN
+3         95.0          56.0           98          65.0
+
+Now we drop rows with at least one Nan value (Null value)
+
+	First Score	Second Score	Third Score	Fourth Score
+3		95.0			56.0			98		65.0

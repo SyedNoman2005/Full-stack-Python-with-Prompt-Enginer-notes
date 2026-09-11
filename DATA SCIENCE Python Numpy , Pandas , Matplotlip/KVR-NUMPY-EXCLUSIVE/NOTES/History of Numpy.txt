@@ -1,0 +1,10 @@
+					================================================
+								History of Numpy:
+					================================================
+=>Numpy was developed by studying existing module called "Numeric Library"(origin for development of numpy module)
+=>The Numeric Library was developed by JIM HUNGUNIAN
+=>The Numeric Library was not able to solve  complex maths calculations.
+=>Numpy module developed by TRAVIS OLIPHANT for solving   complex maths calculations and array oraganization.
+=>Numpy Module developed in the year 2005
+=>Numpy Module developed in C and PYTHON languages.
+====================================================================================================

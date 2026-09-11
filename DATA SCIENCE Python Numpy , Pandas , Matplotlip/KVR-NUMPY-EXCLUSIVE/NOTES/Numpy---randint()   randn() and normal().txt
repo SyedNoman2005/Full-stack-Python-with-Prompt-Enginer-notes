@@ -1,0 +1,43 @@
+===========================================================================================
+				Numpy---randint()   randn() and normal()
+===========================================================================================
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+								1. randint()
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>This function is used for Generating random Integer Values
+Syntax-1:   numpy.random.randint(Value)-------------> Random number between 0 to value-1
+Syntax-2:   numpy.random.randint(Low,High)-------------> Random number between Low to High-1
+Syntax-2:   numpy.random.randint(Low,High,size)------- Random number between Low to High-1 with size(1-D,2-D, n-D)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+								2. randn()
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:
+------------
+=>This function is used for Generating random floating point values for standard Normal Distribution.
+Syntax-1: numpy.random.randn()--->Generating Any random floating point value  can either +ve or -ve.
+Syntax-2: numpy.random.randn(value)--->Generating Number of Random floating Values (Value times) 
+									for standard Normal Distribution and either +ve or -ve
+																										
+Syntax-3: numpy.random.randn(Rows, Cols)--->Generating Number of Random floating Values (Row, Cols) 
+									for standard Normal Distribution and either +ve or -ve with 2-D	
+Syntax-3: numpy.random.randn(No.Matrices, Row, Cols)--->Generating Number of Random floating Values	
+									(No.Matrices,Row, Cols) for standard Normal Distributionand either +ve or -ve with 3-D	
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+								3. normal()
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Normal Distribution, also known as the Gaussian distribution
+=>It is a fundamental concept in statistics . It is characterized by its bell-shaped curve, which is symmetrical and 
+    centered around the mean.
+Examples  
+	We can draw Normal Distribution for various types of data that include,
+
+	Distribution of Height of People.
+	Distribution of Errors in any Measurement.
+	Distribution of Blood Pressure of any Patient, etc.
+	IQ Scores, Heartbeat etc.
+=>This function is used for Generating random floating point values  with Normal Distribution
+Syntax-1: numpy.random.normal()--->Generating Any random +ve or -ve floating point value .
+Syntax-2: numpy.random.normal(loc,scale)--->Generating Any random +ve or -ve floating point value with (loc, scale) 
+Syntax-3: numpy.random.normal(loc,scale,size)--->Generating Number of Random +ve and -ve floating Values with 
+                                                                                      (loc, scale,size) ie. 1-D	, 2-D and n-D
+----------------------------------------------------------------------------------------------------------------------------------------------------------

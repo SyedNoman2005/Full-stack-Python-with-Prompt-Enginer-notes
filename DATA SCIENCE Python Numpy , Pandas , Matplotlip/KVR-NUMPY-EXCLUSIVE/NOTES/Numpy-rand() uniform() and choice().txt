@@ -1,0 +1,26 @@
+===============================================================================================
+			4. rand()
+===============================================================================================
+=>This function generates random floating point value between 0.0 to 1.0
+=>Syntax-1:     varname=numpy.random.rand()---> Generating Random  Floating Point Value between 0.0 to 1.0
+=>Syntax-2:     varname=numpy.random.rand(Value)---> Generating Random  Floating Point Value (Value time s) between 
+												0.0 to 1.0--1D
+=>Syntax-3:     varname=numpy.random.rand(Rows,Cols )---> Generating Random  Floating Point Values (Rows x Cols)															between 0.0 to 1.0  --2D
+=>Syntax-4:     varname=numpy.random.rand(No.of Matrices,Rows,Cols )---> Generating Random  Floating Point Values 
+                                                                   (Nuo.of Matrices x Rows x Cols)	 between 0.0 to 1.0  --3D
+===============================================================================================
+			5. uniform()
+===============================================================================================
+=>This function generates random floating point value According Programmer Choice
+=>Syntax-1:    varname=numpy.random.uniform()---> Generating Random  Floating Point Value between 0.0 to 1.0
+=>Syntax-2:    varname=numpy.random.uniform(Low, high)---> Generating Random  Floating Point Value between Low to 
+																high-1 
+=>Syntax-3:    varname=numpy.random.uniform(Low, high,size)--->Generating Random  Floating Point Value between Low to 	high-1 in the form of  in the form of  of Size Representation---1D,2D,3-D
+===============================================================================================
+				6. choice()
+===============================================================================================
+Syntax:	varname=numpy.random.choice(ndarrayObject,size)
+
+=>The Choice() will select randomly either One Value (By default size=1) or More Values in the form 1-D,2-D and n-D 
+    depends value of Passing size
+===============================================================================================

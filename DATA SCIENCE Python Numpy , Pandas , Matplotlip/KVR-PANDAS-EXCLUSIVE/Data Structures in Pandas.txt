@@ -1,0 +1,11 @@
+			=======================================================
+					Data Structures in Pandas
+			=======================================================
+=>The Data Structures in Pandas Represents How to Store the Data.
+=>In Pandas, We have THREE Types of Data Structures. They are
+	
+					1. Series
+					2. DataFrame
+					3. Panel
+=>The above Data Structures are called Classes in pandas module.
+============================================================================================

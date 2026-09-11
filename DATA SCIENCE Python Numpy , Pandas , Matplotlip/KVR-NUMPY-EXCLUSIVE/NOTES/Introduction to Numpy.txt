@@ -1,0 +1,26 @@
+		==========================================
+						Numpy
+		==========================================
+Introduction to Numpy:
+-----------------------------------------------------------------------------------------
+=>Numpy stands for Numerical Python.
+=>The Purpose of Numpy  Module is that "To Perform Complex Math Operations and Array Based Computing".
+=>Numpy is one of the pre-defined third party module / Library and numpy module is not a pre-defined module in Python Language.
+=>The numpy is one of the THIRD Party Module and THIRD Party Modules are available in GITHUB
+=>To install THIRD Party Modules line numpy, pandas, matplotlib,....etc, we must a tool called 'pip' present in C:\Users\KVR\AppData\Local\Programs\Python\Python313\Scripts Folder
+
+=>Syntax for installing any module:
+
+			pip    install    module-name ( at any Windows Command  )
+		    
+=>Example: Install  numpy module
+
+			pip   install   numpy   ( at any Windows Command  )
+		
+=>To use numpy as part of our program, we must import numpy module.
+=>A Numpy module is a collection of Variables, Functions and Classes.
+===============================================================
+
+
+
+

@@ -1,0 +1,11 @@
+			========================================================
+						Numpy--Attibutes of ndarray
+			========================================================
+			1. dtype-------------- Data Type of values of ndarray Object
+			2. ndim---------------Dimension of ndarray Object
+			3. shape--------------Dimensional Shape, (No.Rows, No.Columns) OR (No.Matrices, NoRows, NoCols)
+			4. size-----------------Number of Elements in ndarray
+			5. itemsize-----------the memory space occupied by Every Element of Ndarray
+
+			Syntax:  ndarrayobj.attributename
+			=========================================================

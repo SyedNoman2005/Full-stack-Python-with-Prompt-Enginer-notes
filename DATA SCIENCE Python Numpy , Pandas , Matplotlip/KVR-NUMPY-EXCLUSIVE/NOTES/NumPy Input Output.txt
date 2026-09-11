@@ -1,0 +1,140 @@
+		=====================================================================
+						NumPy Input Output
+		=====================================================================
+=>NumPy offers input/output (I/O) functions for loading and saving data to and from files.
+=>Input/output functions support a variety of file formats, including binary and text formats.
+=>The binary format is designed for efficient storage and retrieval of large arrays.
+=>The text format is more human-readable and can be easily edited in a text editor.
+Most Commonly Used I/O Functions
+Here are some of the commonly used NumPy Input/Output functions:
+-----------------------------------------------------------------------------
+Function		Description
+-----------------------------------------------------------------------------
+save()		saves an array to a binary file in the NumPy .npy format.
+load()		loads data from a binary file in the NumPy .npy format
+savetxt()	        saves an array to a text file in a specific format
+loadtxt()	        loads data from a text file.
+-----------------------------------------------------------------------------
+NumPy save() Function
+------------------------------------
+=>In NumPy, the save() function is used to save an array to a binary file in the NumPy .npy format.
+=>Here's the syntax of the save() function,
+=>Syntax:        numpy.save(file, ndarray)
+=>file - specifies the file name (along with path if required)
+=>ndarray - specifies the NumPy array to be saved
+Examples
+--------------------
+import numpy as np
+
+# create a NumPy array
+array1 = np.array([[1, 3, 5],[7, 9, 11]])
+# save the array to a file
+np.save('file1.npy', array1)
+Here, we saved the NumPy array named array1 to the binary file named file1.npy in our current directory.
+---------------------------------------------------------------
+NumPy load() Function
+---------------------------------------------------------------
+In the previous example, we saved an array to a binary file. Now we'll load that saved file using the load() function.
+
+import numpy as np
+
+# load the saved NumPy array
+loaded_array = np.load('file1.npy')
+
+# display the loaded array
+print(loaded_array)
+
+Output
+
+[[ 1  3  5]
+ [ 7  9 11]]
+Here, we have used the load() function to read a binary file named file1.npy.
+-----------------------------------------------------------------------------------------------
+NumPy savetxt() Function
+-----------------------------------------------------------------------------------------------
+=>In NumPy, we use the savetxt() function to save an array to a text file.
+=>Here's the syntax of the savetxt() function:
+=>Syntax:   numpy.save(file, array)
+=>file - specifies the file name
+=>array - specifies the NumPy array to be saved
+
+import numpy as np
+# create a NumPy array
+array2 = np.array([[1, 3, 5],[7, 9, 11]])
+
+# save the array to a file
+np.savetxt('file2.txt', array2)
+----------------
+The code above will save the NumPy array array2 to the text file named file2.txt in our current directory.
+--------------------------------------------------------------------------------------------------
+NumPy loadtxt() Function
+--------------------------------------------------------------------------------------------------
+We use the loadtxt() function to load the saved txt file.
+
+Let's see an example to load the file2.txt file that we saved earlier.
+
+import numpy as np
+
+# load the saved NumPy array
+loaded_array = np.loadtxt('file2.txt')
+
+# display the loaded array
+print(loaded_array)
+-----------------------------
+Output
+[[1. 3. 5.]
+ [7. 9. 11.]]
+Here, we have used the loadtxt() function to load the text file named file2.txt that was previously created and saved using the savetxt() function.
+==============================================================================================
+				Save Multiple NumPy Array File(.npz Files)
+==============================================================================================
+=>To save multiple NumPy arrays into a single file we use the savez() function.
+=>The savez() function is similar to the save() function, but it can save multiple arrays at once in the .npz format.
+
+=>Here's the syntax of the savez() function.
+
+		numpyp.savez(file, name1=array1,name2=array2,......)
+
+=>file - name of the file where the arrays will be saved
+=>name1 represents variable name to the First nd array object
+=>name2 represents variable name to the Second nd array object
+-----------------
+Examples
+------------------
+import numpy as np
+
+# create two NumPy arrays
+array1 = np.array([2, 6, 10])
+array2 = np.array([4, 8, 12])
+# save the two arrays into a single file
+np.savez('file2.npz', file1 = array1, file2 = array2)
+------------------
+In this example, we have used the np.savez() function to save the two NumPy arrays array1 and array2 into a single file named file2.npz.
+----------------------------------------------------------------------------------------------------------------------------
+				Load Multiple NumPy Array File
+----------------------------------------------------------------------------------------------------------------------------
+=>we saved multiple arrays to a single file. Now we'll load that saved file using the load() function.
+
+import numpy as np
+
+# load the saved arrays 
+load_data = np.load('file2.npz')
+
+# retrieve the arrays using their names
+array1 = load_data['file1']
+array2 = load_data['file2']
+
+# display the loaded arrays
+print(array1)
+print(array2)
+---------------------------------
+Output
+----------------------------------
+[ 2  6 10]
+[ 4  8 12]
+In the above example, first we loaded the saved arrays from the file using the np.load() function.
+
+Then, we retrieved the arrays using their names file1 and file2 (mentioned in the previous example) as: data['file1'] and data['file2'], respectively.
+
+Finally, we displayed the loaded arrays.
+==============================================================================================

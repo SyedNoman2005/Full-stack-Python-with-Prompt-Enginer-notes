@@ -1,0 +1,29 @@
+			=========================================================
+					Topic Wise Index in Numpy
+			=========================================================
+
+Part-1:	Introduction to NumPy
+Part-2:	Installing NumPy
+Part-3:	Importing NumPy
+Part-4:	Creating NumPy Arrays
+Part-5:	Array Data Types
+Part-6:	Array Shape and Size
+Part-7:	Reshaping and Flattening Arrays
+Part-8:	Indexing and Slicing Arrays
+Part-9:	Boolean Indexing
+Part-10:	Specific Indexing
+Part-11:	Basic Array Operations
+Part-12:	Universal Functions
+Part-13:	Aggregation Functions
+Part-14:	Generating Random Numbers
+Part-15:	Splitting Arrays
+Part-16:	Copy vs. View in NumPy
+Part-17:	Linear Algebra
+Part-18:	Statistical Functions
+Part-19:	Sorting and Searching
+Part-20:	Filtering Arrays
+Part-21:	Handling Missing Data
+Part-22:	Working with Structured Arrays
+Part-23:	Memory Layout and Optimization
+Part-24:	Using NumPy with Pandas
+Part-25:	Saving and Loading Arrays

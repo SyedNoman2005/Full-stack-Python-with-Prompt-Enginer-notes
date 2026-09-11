@@ -1,0 +1,14 @@
+===================================================================
+		Padas--- Exporting Data Frame data to CSV File and Excel Files
+===================================================================
+To Export the DataFrame object data to the csv file
+		df.to_csv("E:\KVR-PYTHON-7AM\PANDAS\studfinaldata.csv")
+To Export the DataFrame object data to the xlsx file
+		df.to_excel("C:\\KVR\\finalresult.xlsx")
+To Export the DataFrame object data to the txt file
+		df.to_csv("E:\KVR-PYTHON-7AM\PANDAS\class_10.txt")
+			(or)
+		df.to_csv("E:\KVR-PYTHON-7AM\PANDAS\class_10.txt",index=False)
+			(OR)
+		df.to_csv("E:\KVR-PYTHON-7AM\PANDAS\class_10.txt",index=False,sep="\t")
+------------------------------------------------------------------------------ -----------------------------------------

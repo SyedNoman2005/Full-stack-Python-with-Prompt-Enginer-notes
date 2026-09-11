@@ -1,0 +1,21 @@
+				=============================================================
+						Accessing the Data from Series Object
+									OR
+						Get and  Data from Series Object
+				=============================================================
+=>Accessing the Data  OR Get the Data from series Object
+		1. Accessing Series Elements by using Positional Indexing
+						Syntax:   SeriesObj[Index]
+		2. Accessing Range Series Elements by using Slicing with Numerical Indices
+						Syntax:  SeriesObj[BegIndex: EndIndex: Step]
+		3. Accessing Range Series Elements by using random Indices
+						Syntax:  SeriesObj[[List of random Elements Indices]]
+		4. Accessing Series Elements by using Label Name
+						Syntax:  SeriesObj[Label name]
+		5. Accessing Range Series Elements by using Slicing with Label Names
+						Syntax:  SeriesObj[BeginLabel name: EndlabelName]
+		6. Accessing Range Series Elements by using random Label Names
+						Syntax:  SeriesObj[[List of labels of random Elements]]
+===========================================================================================
+
+

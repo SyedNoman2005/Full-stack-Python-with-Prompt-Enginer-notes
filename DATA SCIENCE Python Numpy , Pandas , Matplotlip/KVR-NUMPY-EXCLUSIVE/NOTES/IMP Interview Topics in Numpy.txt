@@ -1,0 +1,24 @@
+IMP Interview Topics in Numpy
+-------------------------------------------------------------
+Creating Arrays
+Indexing Arrays
+Slicing Arrays
+Data Types
+Copy vs View
+Shape Arrays
+Reshape Arrays
+Iteration Arrays
+Join Arrays
+Split Arrays
+Search Arrays
+Sort Arrays
+Filter Arrays
+Random
+Random Data Distribution
+Random Permutation
+Normal Distribution
+Uniform Distribution
+Logistic Distribution---randint()
+Ufuncs
+Simple Arithmetic
+Rounding Decimals

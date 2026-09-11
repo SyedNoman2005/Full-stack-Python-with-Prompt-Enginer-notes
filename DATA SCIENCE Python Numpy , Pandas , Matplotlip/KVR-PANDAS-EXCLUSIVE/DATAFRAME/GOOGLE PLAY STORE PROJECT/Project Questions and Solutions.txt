@@ -1,0 +1,87 @@
+Questions:
+--------------------------------------------------------------------------------------------------------------------------------------------
+Sample-1. Find Total Number Apps in Google Play Store
+Sample-2. Find the Total Number of Columns in Each app of Google Play Store
+--------------------------------------------------------------------------------------------------------------------------------------------
+1. Display Top 5 Rows of The Dataset
+2. Check the Last 3 Rows of The Dataset
+3. Find Shape of Our Dataset (Number of Rows & Number of Columns)
+4. Get Information About Our Dataset Like Total Number Rows, Total Number of Columns, Datatypes of Each Column 
+   And  Memory Requirement
+5. Get Overall Statistics About The Dataframe OR Get the Descriptive Statistics about Google Play Store
+6. Obtain Total Number of App Titles Contain Astrology
+7. Find Average App Rating
+8.  Find Total Number of Unique Category
+9. Which Category Getting The Highest Average Rating?
+...........................next Class
+
+==============================================================================================
+		Google Play Store Data Analysis
+============================================================================
+1. Display top 5 Rows and 3 Rows
+        df.head()  # 5 Rows
+	df.head(3) # 3 Rows
+2. Display bottom 5 rows and 3 Rows
+	df.tail()  # 5 Rows
+	df.tail(3)  # 3 Rows
+3. Find the Number of Apps in Google play store and columns( shape)
+	df.shape
+	print("Number of Apps=",df.shape[0])
+	print("Number of Cols=",df.shape[1])
+4. Find the information abount Number of Rows , Columns,data types of all columns, memory space 
+  occuped by Google Play apps
+       df.info()
+5. Get the Statistical Information about Google Play Store Apps(Called Descriptive statistics)
+				OR
+	Get the Descriptive statistics about Google Play Store App
+
+	df.describe() # Gives Descriptive statistical Information only on Numerical Columns
+	df.describe(include='all') # Gives Descriptive statistical Information of all Columns
+
+6.Find the Name of Apps contains Astrology
+       step-0:  df.columns # Gives all column names
+       step-1: First find app names
+              df["App"] # displays all apps names values from apps column
+       step-2: Find the app names contains Astrology word
+              df["App"].str.contains("Astrology") # Gives Boolean array
+        step-3: pass boolean array to DataFrame object
+		df[df["App"].str.contains("Astrology")] # Case sensitive
+			OR
+		df[df["App"].str.contains("Astrology",case=False)]	# Ingore the Case sensitive
+	Step-4: Find the Number of column Names starts with "Astrology"
+	       len(df[df["Apps"].str.contains("Astrology",case=False)])
+
+7.Find the Average App Rating of Google Play Store
+		Step-0: Find the column Name on which we are working
+		         df.columns  # Gives all column names---take 'rating'
+		Step-1: Get all the app rating 
+		        df["Ratings"] # Gives all Numerical Values of 'Rating'
+		Step-3:  Find the mean() of Rating--Called Average App Rating
+			df["Ratings"].mean()
+8.Find the total number of Unique Category
+		Step-0: Find the column Name on which we are working
+		         df.columns  # Gives all column names---take 'Category'
+		Step-1: Get all the Values of Unique Category
+		        df["Category"] # Gives all  Values of 'Category'
+		Step-2: Get the Unique Values of Category
+			df["Category"].nunique() #Gives Number of Unique Values of Category--34
+9. Find which Category getting Highest Average Rating
+		Step-0: Find the column Name on which we are working
+		         df.columns  # Gives all column names---take 'Category'
+		Step-1: Separate OR group the category
+		        df.groupby("Category")
+		Step-2: Get the Rating of Every Category
+		           df.groupby("Category")["Rating"]
+		Step-3: Find the Mean of Rating of Every Category
+			df.groupby("Category")["Rating"].mean()
+		Step-4: Find the Highest Average Rating
+			df.groupby("Category")["Rating"].mean().sort_values(ascending=False)
+			         #Here we get First Entry is the Highest Average Rating
+				OR
+			df.groupby("Category")["Rating"].mean().sort_values()
+				#Here we get Last Entry is the Highest Average Rating
+
+=================================================================================================	
+
+		
+				

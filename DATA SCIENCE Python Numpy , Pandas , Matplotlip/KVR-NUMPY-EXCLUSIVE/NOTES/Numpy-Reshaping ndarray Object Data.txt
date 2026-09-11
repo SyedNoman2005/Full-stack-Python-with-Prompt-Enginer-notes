@@ -1,0 +1,67 @@
+			============================================================
+					Reshaping ndarray Object Data
+			============================================================
+=>Reshaping ndarray Object Data is nothing Changing the Dimension of ndarray Object.
+=>To Reshape ndarray Object Data, we have 2 Approaches. They are
+
+					1. By using reshape() of ndarray object
+					2. By using shape attribute of ndarray object
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+1. By using reshape() of ndarray object
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+=>Syntax:     ndarrayobj.reshape(Shape Value) 
+				Here Shape Can be 1-D Value OR 2-D Value OR 3-D Value
+				Here 1-D Notation is (Number of Values, )
+				Here 2-D Notation is (Number of Rows, Number of Columns)
+				Here 3-D Notation is (Number of Matrices, Number of Rows, Number of Columns)
+Examples:
+-------------
+tpl=(10,20,34,56,78,15,35,36)
+print("---------------------------------")
+print('content of tpl=',tpl)
+print("type of tpl=",type(tpl))
+#Convert Tuple Value into ndarray object
+a=np.array(tpl)
+print(a) # [10 20 34 56 78 15 35 36]
+a=a.reshape(4,2)
+print(a)
+------------------
+Output
+-----------------
+ [[10 20]
+ [34 56]
+ [78 15]
+ [35 36]]
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+2. By using shape attribute of ndarray object
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Syntax:       ndarrayoobj.shape=Shape Value
+
+				Here Shape Can be 1-D Value OR 2-D Value OR 3-D Value
+				Here 1-D Notation is (Number of Values, )
+				Here 2-D Notation is (Number of Rows, Number of Columns)
+				Here 3-D Notation is (Number of Matrices, Number of Rows, Number of Columns)
+Examples
+----------------
+tpl=(10,20,34,56,78,15,35,36)
+print("---------------------------------")
+print('content of tpl=',tpl)
+print("type of tpl=",type(tpl))
+a=np.array(tpl)
+print('content of ndarray object a:',a)
+print("Dimension of ndarray a=",a.ndim)
+print("Shape of ndarray a=",a.shape)
+print("---------------------------------")
+#Change the Shape by using shape attribute
+a.shape=(2,4)
+print('content of ndarray object a:\n',a)
+print("Dimension of ndarray a=",a.ndim)
+print("Shape of ndarray a=",a.shape)
+print("---------------------------------")
+#Change the Shape by using shape attribute
+a.shape=(2,2,2)
+print('content of ndarray object a:\n',a)
+print("Dimension of ndarray a=",a.ndim)
+print("Shape of ndarray a=",a.shape)
+print("---------------------------------")
+--------------------------------------------------------------------------------------------------------------------------------------------------------

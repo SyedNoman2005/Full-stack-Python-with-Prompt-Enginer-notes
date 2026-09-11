@@ -1,0 +1,35 @@
+		===============================================
+			Working with Missing Data
+		===============================================
+		dict = {'First Score':[100, 90, np.nan, 95],
+		'Second Score': [30, 45, 56, np.nan],
+		'Third Score':[np.nan, 40, 80, 98]}
+		df = pd.DataFrame(({
+		     'Courses':["Spark",'Java',"Scala",'Python'],
+		     'Fee' :[20000,np.nan,26000,24000],
+		     'Duration':['30days','40days', pd.NA,'40days'],
+		     'Discount':[1000,np.nan,2500,None]
+			       }))
+=>To find Missing Values, we use (Boolean Array)
+			1. isna()
+			2. isnull()
+=>To find Non-Missing Values, we use (Boolean Array)
+			1. notnull()
+			2. notna()
+
+
+=>for Filling missing values, we use
+---------------------------------------
+1.  fillna():  (Recommended to Use)
+---------------------------------------
+Syntax1:  df=df.fillna(0) ------will fill all missing values with 0 for entire DataFrame
+Syntax2:  df2 = df.fillna(Value)---------will fill all missing values with 'Value' for entire DataFrame
+Syntax3:  df.fillna(Value,inplace=True)--------will fill all missing values with 'Value' for entire DataFrame
+Syntax4:  df[ColName] = df[ColName].fillna(Value)-----will fill all missing values with One Column
+Syntax5:  df[ColName1,ColName2,..] = df[ColName1,ColName2...].fillna(Value)-----will fill all missing values																withMultiple Columns with same value
+Syntax6:	 df.fillna(value={'Colname1':'Val','Colname2':'Val2',...'Colname-n':'Val-n'})
+---------------------------------------------
+2. replace()  :
+---------------------------------------------
+	Syntax1: df.replace(to_replace = np.nan, value = 0)---will fill all missing values with 0
+====================================================================================================

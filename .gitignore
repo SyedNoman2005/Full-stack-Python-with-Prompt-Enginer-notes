@@ -38,3 +38,10 @@ Thumbs.db
 ~$*
 *.tmp
 *.bak
+
+# MASTERY track - generated artifacts
+MASTERY/**/output/
+MASTERY/**/exports/
+MASTERY/**/*.db
+MASTERY/phase2_sql/practice.db
+MASTERY/phase4_python_db/ems/ems.db
